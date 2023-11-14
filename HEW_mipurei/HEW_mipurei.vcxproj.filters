@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソースファイル\Game">
+      <UniqueIdentifier>{2c1f2b29-f49a-43ae-9f36-4e937d658a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System">
+      <UniqueIdentifier>{e030071b-bb7f-4013-ae86-9367a8dfb212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Manager">
+      <UniqueIdentifier>{648f3256-acd5-4a53-abf5-375e0bf37e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Manager\SoundManager">
+      <UniqueIdentifier>{557470d0-b9e0-4083-aa97-3fd02e6073c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Manager\SceneManager">
+      <UniqueIdentifier>{9a5432f4-7467-47cf-b94a-89525aedb69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Manager\TextureManager">
+      <UniqueIdentifier>{6cbfc7da-db58-48a6-8456-afa3fc262d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Manager\EffectManager">
+      <UniqueIdentifier>{68582979-61e5-4d0d-9143-9d9a5408482a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Manager\GameManager">
+      <UniqueIdentifier>{20dd914a-8bb8-46f4-bc34-373fd0469159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Movie">
+      <UniqueIdentifier>{87d5fe0d-e278-49f0-a15b-d191ae7d391d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\direct3D">
+      <UniqueIdentifier>{a5d2fe5e-1b43-44f5-972f-d5b950dc1d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\xAudio2">
+      <UniqueIdentifier>{1432d1c6-1c35-4263-ba6a-bd3fdba90323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Log">
+      <UniqueIdentifier>{1d0752d0-5fb7-45ce-b91a-fee7de6055a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image">
+      <UniqueIdentifier>{0f510940-a37f-4458-9a15-b6e025d580a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\vs.ps">
+      <UniqueIdentifier>{b157b698-53e1-4535-a062-7b075d9096f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Math">
+      <UniqueIdentifier>{b278eeac-51e8-46fb-8950-832ce75a2872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Math\Angle">
+      <UniqueIdentifier>{eba45dbe-cd5e-47aa-9cb1-45d8826e6962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Math\Pimp">
+      <UniqueIdentifier>{fd797613-a2c5-4a7f-b9e3-11a21e3e09fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Math\VERTEX2">
+      <UniqueIdentifier>{8830bbd1-5e2e-4973-a17f-e3f112fa20a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Math\Vector2">
+      <UniqueIdentifier>{939112a3-7953-41e7-9926-2fb87261d99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Math\Time">
+      <UniqueIdentifier>{02cf3c42-7595-4223-baa4-8ce50f32b65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Sprite">
+      <UniqueIdentifier>{a5e1b480-ab2f-4e59-9f00-a1f7326438fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject">
+      <UniqueIdentifier>{bebe47d7-f1c7-497d-92d6-a31cd59bdacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\AnimHtiObject">
+      <UniqueIdentifier>{c8d13747-69cf-4d93-84dd-f064fda99f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\StaticObject">
+      <UniqueIdentifier>{cb4c6b9f-8860-4688-8990-4a01f08200c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\BoxObject">
+      <UniqueIdentifier>{f9538879-564c-43b1-833d-c42358b84bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene">
+      <UniqueIdentifier>{7a8883ed-53c2-4ede-b7ff-a203e0850480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\TitleScene">
+      <UniqueIdentifier>{cb799db8-ec36-4d96-9908-473866dc5397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Result">
+      <UniqueIdentifier>{d27d3ab4-9f77-420c-9938-c50f0eafa7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\DebugScene">
+      <UniqueIdentifier>{3c0cc0e2-a1f0-4676-b137-8f02a173dba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\DebugScene\PortDebugScene">
+      <UniqueIdentifier>{a03b698c-62af-4f41-8ff3-a7fcd3573ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\DebugScene\AoiScene">
+      <UniqueIdentifier>{c62a05c5-7f0e-474e-b968-c7a5a24b01c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\DebugScene\NakanoScene">
+      <UniqueIdentifier>{42cf828f-53a6-49ad-a56e-406dfacb3d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\DebugScene\NakanoScene\ProtObj">
+      <UniqueIdentifier>{07183fb5-beaa-442a-9510-ef4d9525881a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\ProtoType">
+      <UniqueIdentifier>{4a2c57a2-0ec7-4aa2-a4c8-54c5910bf421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Stage1">
+      <UniqueIdentifier>{236515bf-0c54-4efb-875b-5069368612ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Stage1\2">
+      <UniqueIdentifier>{0952e64f-4064-4fb6-8a28-bcb1704b087d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Stage1\3">
+      <UniqueIdentifier>{7b13a899-0736-419c-a616-d1f480cd08fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Stage1\1">
+      <UniqueIdentifier>{4b31f312-b9f2-4fab-8c07-f4394d4ad3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Stage1\4">
+      <UniqueIdentifier>{0b979b1f-4577-45f5-9472-115fba730437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\Stage1\5">
+      <UniqueIdentifier>{d015e618-8f07-45bb-8671-9f2e63e5e982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\StageSelectScene">
+      <UniqueIdentifier>{9c98db66-1c86-4f30-ace5-7559aed3150f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Scene\PauseScene">
+      <UniqueIdentifier>{422a5915-2b4b-4abb-a178-37a8bd4b9186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Float2">
+      <UniqueIdentifier>{0126426b-36a9-4f96-ba42-425fad4e2ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\DrawValue">
+      <UniqueIdentifier>{efed5c85-34f3-40bf-a39f-ccb5240e68bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Collision">
+      <UniqueIdentifier>{c2737d1d-61bd-479f-8510-045acbf0c45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Collision\Box">
+      <UniqueIdentifier>{e1752837-f887-4100-baaf-a93d98818382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Collision\Circle">
+      <UniqueIdentifier>{7ed795d6-90c5-46cd-8eaa-53b006e8e67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Collision\Shape">
+      <UniqueIdentifier>{5e26e397-5a30-49ed-b834-2b2f2fbc6055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Collision\Line">
+      <UniqueIdentifier>{6ee45e48-3867-4292-bdfc-b787d8397556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map">
+      <UniqueIdentifier>{44f07704-4473-4654-b7ac-5ebee3505504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map\Map1">
+      <UniqueIdentifier>{32d16cb0-1914-4af8-9fa4-24ec25ffc0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map\StageSelectMap">
+      <UniqueIdentifier>{dfe575e6-fc93-4aab-ad6f-4f82402513fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map\Map1_2">
+      <UniqueIdentifier>{6f3fae42-b5af-452d-b542-94c4f6ea7dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map\Map1_3">
+      <UniqueIdentifier>{98723d39-8ba4-465b-81e0-664e35d7f2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map\Map1_5">
+      <UniqueIdentifier>{e130b6fd-529b-4a1c-8717-318a1c47efb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Map\Map1_4">
+      <UniqueIdentifier>{4e1bb536-891f-41df-92f1-39b707c5116d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\FPS">
+      <UniqueIdentifier>{a16463b2-9aeb-49e3-afc7-3a2dcaeb2a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\StageDoor">
+      <UniqueIdentifier>{4e130f5f-e8ef-41b4-9b79-ba52bb7027d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\HitStop">
+      <UniqueIdentifier>{b62ed028-9ff5-41d7-9bcd-726e86ac9317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Gimmick">
+      <UniqueIdentifier>{2454f895-03d8-4acc-8d76-d98821d795e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\SelectCursol">
+      <UniqueIdentifier>{3ba34034-aba3-4b63-924c-efd2278e017e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\Game\Fade">
+      <UniqueIdentifier>{8c8eb405-a3ca-4ca5-9450-da4eefcc9025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Dynamo">
+      <UniqueIdentifier>{25120b1b-3557-4c22-af1f-1510486851db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Command">
+      <UniqueIdentifier>{3102fc15-2de9-487b-81f5-f0cf33461ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Cursol">
+      <UniqueIdentifier>{11b16cf7-64ad-48ac-9c90-d90c04f843de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\CheackPoint">
+      <UniqueIdentifier>{254d2e18-64c2-4efb-84de-3e194e75749d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character">
+      <UniqueIdentifier>{2caf87a8-2b5b-41d2-a72a-0f9fc8e5d9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy">
+      <UniqueIdentifier>{b008d1c7-36c6-4905-a206-bffc2766844d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\EnemyManager">
+      <UniqueIdentifier>{f946c0e7-f723-43a1-a83c-76aeb091e481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Splitter">
+      <UniqueIdentifier>{88c522d2-63f0-4557-aa58-05564c6a3620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Hooder">
+      <UniqueIdentifier>{a5bec977-5ad0-4dd6-9459-0d6f2ddc42cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Tinpiller">
+      <UniqueIdentifier>{1facde34-e87a-4ec5-8afa-b5dcd8cb5768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Dorone">
+      <UniqueIdentifier>{4f6e1bad-b46b-4ba9-9d53-9b468f8a9eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Dorone\Aunper">
+      <UniqueIdentifier>{8e59f0cf-c211-4f2a-b928-ccb9d6dbbf24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Dorone\Unper">
+      <UniqueIdentifier>{4ddbbb34-acea-4eef-8e8c-3b3649473ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Enemy\Fordon">
+      <UniqueIdentifier>{e43d4529-f0ee-4ac0-ab4c-687abae1d836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Player">
+      <UniqueIdentifier>{139e51db-3516-45ac-9322-b55d21636c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Boss">
+      <UniqueIdentifier>{f996ea33-f164-4991-beb0-60bd58701c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Boss\Necthor">
+      <UniqueIdentifier>{3342bff5-08dc-4ead-bfb9-f34e45be136a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\Character\Boss\ReNecthor">
+      <UniqueIdentifier>{6696b6ac-1232-4bc4-a281-6ade69eb2a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Camera">
+      <UniqueIdentifier>{33565623-6870-405d-a838-e7843d0ff0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GamaObject\BreakObj">
+      <UniqueIdentifier>{bb75dac2-66f7-4cc0-a421-b326a11e8bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image\InoutSystem">
+      <UniqueIdentifier>{0e09d138-03f0-4af5-aa3a-49bf713796dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image\InoutSystem\Controller">
+      <UniqueIdentifier>{752620db-85d5-4874-8ceb-9c25854d4286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image\InoutSystem\Input">
+      <UniqueIdentifier>{664c87d0-c4c2-42a6-8b5c-3763b24ce64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image\InoutSystem\Input\Directinput8">
+      <UniqueIdentifier>{ff3e98f0-96a4-4b02-baec-419634efb55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image\InoutSystem\Input\Directinput8\KeyBoard">
+      <UniqueIdentifier>{b4114dae-6417-4fc6-ae15-d78fe908209c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\System\Image\InoutSystem\Input\Directinput8\Mouse">
+      <UniqueIdentifier>{4e049bd3-f466-4d93-9f9c-6a8a34b6f1e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSprite.cpp">
+      <Filter>ソースファイル\System\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationHitObject.cpp">
+      <Filter>ソースファイル\GamaObject\AnimHtiObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>ソースファイル\GamaObject\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>ソースファイル\System\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソースファイル\Game\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ソースファイル\GamaObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRateCalculator.cpp">
+      <Filter>ソースファイル\System\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソースファイル\System\Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>ソースファイル\System\Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソースファイル\System\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソースファイル\Game\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>ソースファイル\GamaObject\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCursol.cpp">
+      <Filter>ソースファイル\GamaObject\SelectCursol</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>ソースファイル\Math\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="xAudio.cpp">
+      <Filter>ソースファイル\System\xAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>ソースファイル\Game\Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>ソースファイル\System\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>ソースファイル\System\Image\InoutSystem\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Angle.cpp">
+      <Filter>ソースファイル\Math\Angle</Filter>
+    </ClCompile>
+    <ClCompile Include="FLOAT2.cpp">
+      <Filter>ソースファイル\System\Float2</Filter>
+    </ClCompile>
+    <ClCompile Include="VERTEX2D.cpp">
+      <Filter>ソースファイル\Math\VERTEX2</Filter>
+    </ClCompile>
+    <ClCompile Include="direct3d.cpp">
+      <Filter>ソースファイル\System\direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソースファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソースファイル\System\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソースファイル\GamaObject\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDebugScene.cpp">
+      <Filter>ソースファイル\Game\Scene\DebugScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlugTail.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>ソースファイル\Math\Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput8.cpp">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8</Filter>
+    </ClCompile>
+    <ClCompile Include="DIMouse.cpp">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Camerah.cpp">
+      <Filter>ソースファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>ソースファイル\System\Collision\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>ソースファイル\System\Collision\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>ソースファイル\System\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtDebugScene.cpp">
+      <Filter>ソースファイル\Game\Scene\DebugScene\PortDebugScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AoiScene.cpp">
+      <Filter>ソースファイル\Game\Scene\DebugScene\AoiScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoTypeScene.cpp">
+      <Filter>ソースファイル\Game\Scene\DebugScene\NakanoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoObj.cpp">
+      <Filter>ソースファイル\Game\Scene\DebugScene\NakanoScene\ProtObj</Filter>
+    </ClCompile>
+    <ClCompile Include="NakanoColi.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugScene.cpp">
+      <Filter>ソースファイル\Game\Scene\DebugScene</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawValue.cpp">
+      <Filter>ソースファイル\System\DrawValue</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxObject.cpp">
+      <Filter>ソースファイル\GamaObject\BoxObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoAnimObj.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>ソースファイル\System\Collision\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1_1.cpp">
+      <Filter>ソースファイル\GamaObject\Map\Map1</Filter>
+    </ClCompile>
+    <ClCompile Include="TestChar.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemy.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBase.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>ソースファイル\System\Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HitStop.cpp">
+      <Filter>ソースファイル\Game\HitStop</Filter>
+    </ClCompile>
+    <ClCompile Include="BigDoor.cpp">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamo.cpp">
+      <Filter>ソースファイル\GamaObject\Dynamo</Filter>
+    </ClCompile>
+    <ClCompile Include="Gimmick.cpp">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>ソースファイル\System\Manager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelectScene.cpp">
+      <Filter>ソースファイル\Game\Scene\StageSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelectMap.cpp">
+      <Filter>ソースファイル\GamaObject\Map\StageSelectMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursol.cpp">
+      <Filter>ソースファイル\GamaObject\Cursol</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitLowerEnemy.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitUpperEnemy.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftEnemy.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Hooder</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEnemy.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Tinpiller</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPoint.cpp">
+      <Filter>ソースファイル\GamaObject\CheackPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="StageDoor.cpp">
+      <Filter>ソースファイル\GamaObject\StageDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDrone.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Dorone</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHunmer.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\Necthor</Filter>
+    </ClCompile>
+    <ClCompile Include="Necthor.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\Necthor</Filter>
+    </ClCompile>
+    <ClCompile Include="Plag.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\Necthor</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_1Scene.cpp">
+      <Filter>ソースファイル\Game\Scene\Stage1\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_1_3.cpp">
+      <Filter>ソースファイル\Game\Scene\Stage1\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_2Scene.cpp">
+      <Filter>ソースファイル\Game\Scene\Stage1\2</Filter>
+    </ClCompile>
+    <ClCompile Include="GimmickManager.cpp">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1_2.cpp">
+      <Filter>ソースファイル\GamaObject\Map\Map1_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1_3.cpp">
+      <Filter>ソースファイル\GamaObject\Map\Map1_3</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakObj.cpp">
+      <Filter>ソースファイル\GamaObject\BreakObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoGoal.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fordon.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Fordon</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowEffect.cpp">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScene.cpp">
+      <Filter>ソースファイル\Game\Scene\PauseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>ソースファイル\GamaObject\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="WeakDynamo.cpp">
+      <Filter>ソースファイル\GamaObject\Dynamo</Filter>
+    </ClCompile>
+    <ClCompile Include="Pimp.cpp">
+      <Filter>ソースファイル\Math\Pimp</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1_4.cpp">
+      <Filter>ソースファイル\GamaObject\Map\Map1_4</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1_5.cpp">
+      <Filter>ソースファイル\GamaObject\Map\Map1_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_5.cpp">
+      <Filter>ソースファイル\Game\Scene\Stage1\5</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_4.cpp">
+      <Filter>ソースファイル\Game\Scene\Stage1\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LoseScene.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PressMachine.cpp">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Debri.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClCompile>
+    <ClCompile Include="ReNecthor.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShocoWave.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClCompile>
+    <ClCompile Include="NecthorHammer_InClass.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSmoke.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Necthor1_5.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMovei.cpp">
+      <Filter>ソースファイル\System\Movie</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapDebri.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="HPICon.cpp">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBattry.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Necthor_Allow.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CheackBox.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSControll.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\directxtex\include\WICTextureLoader.cpp">
+      <Filter>ソースファイル\System\Manager\TextureManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationSprite.h">
+      <Filter>ソースファイル\System\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ソースファイル\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>ソースファイル\GamaObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="eScene.h">
+      <Filter>ソースファイル\System\Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="eTexture.h">
+      <Filter>ソースファイル\System\Manager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>ソースファイル\System\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="eSoundID.h">
+      <Filter>ソースファイル\System\Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ソースファイル\Game\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ソースファイル\GamaObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateCalculator.h">
+      <Filter>ソースファイル\System\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ソースファイル\System\Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>ソースファイル\System\Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ソースファイル\System\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ソースファイル\Game\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>ソースファイル\System\Manager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>ソースファイル\GamaObject\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCursol.h">
+      <Filter>ソースファイル\GamaObject\SelectCursol</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>ソースファイル\Math\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="xAudio.h">
+      <Filter>ソースファイル\System\xAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>ソースファイル\Game\Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>ソースファイル\System\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>ソースファイル\System\Image\InoutSystem\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Angle.h">
+      <Filter>ソースファイル\Math\Angle</Filter>
+    </ClInclude>
+    <ClInclude Include="FLOAT2.h">
+      <Filter>ソースファイル\System\Float2</Filter>
+    </ClInclude>
+    <ClInclude Include="VERTEX2D.h">
+      <Filter>ソースファイル\Math\VERTEX2</Filter>
+    </ClInclude>
+    <ClInclude Include="direct3d.h">
+      <Filter>ソースファイル\System\direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ソースファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソースファイル\System\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>ソースファイル\GamaObject\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDebugScene.h">
+      <Filter>ソースファイル\Game\Scene\DebugScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlugTail.h">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ソースファイル\Math\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput8.h">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="DIMouse.h">
+      <Filter>ソースファイル\System\Image\InoutSystem\Input\Directinput8\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Camerah.h">
+      <Filter>ソースファイル\System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationHitObject.h">
+      <Filter>ソースファイル\GamaObject\AnimHtiObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>ソースファイル\System\Collision\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>ソースファイル\System\Collision\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>ソースファイル\System\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtDebugScene.h">
+      <Filter>ソースファイル\Game\Scene\DebugScene\PortDebugScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AoiScene.h">
+      <Filter>ソースファイル\Game\Scene\DebugScene\AoiScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoTypeScene.h">
+      <Filter>ソースファイル\Game\Scene\DebugScene\NakanoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoObj.h">
+      <Filter>ソースファイル\Game\Scene\DebugScene\NakanoScene\ProtObj</Filter>
+    </ClInclude>
+    <ClInclude Include="NakanoColi.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugScene.h">
+      <Filter>ソースファイル\Game\Scene\DebugScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawValue.h">
+      <Filter>ソースファイル\System\DrawValue</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxObject.h">
+      <Filter>ソースファイル\GamaObject\BoxObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoAnimObj.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>ソースファイル\System\Collision\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Map1_1.h">
+      <Filter>ソースファイル\GamaObject\Map\Map1</Filter>
+    </ClInclude>
+    <ClInclude Include="eMapTag.h">
+      <Filter>ソースファイル\GamaObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TestChar.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="eDirection.h">
+      <Filter>ソースファイル\GamaObject\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBase.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemy.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>ソースファイル\System\Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HitStop.h">
+      <Filter>ソースファイル\Game\HitStop</Filter>
+    </ClInclude>
+    <ClInclude Include="BigDoor.h">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamo.h">
+      <Filter>ソースファイル\GamaObject\Dynamo</Filter>
+    </ClInclude>
+    <ClInclude Include="Gimmick.h">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="GimmickID.h">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="eEffecth.h">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelectScene.h">
+      <Filter>ソースファイル\Game\Scene\StageSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelectMap.h">
+      <Filter>ソースファイル\GamaObject\Map\StageSelectMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursol.h">
+      <Filter>ソースファイル\GamaObject\Cursol</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyID.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitLowerEnemy.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitUpperEnemy.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftEnemy.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Hooder</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEnemy.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Tinpiller</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoint.h">
+      <Filter>ソースファイル\GamaObject\CheackPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="StageDoor.h">
+      <Filter>ソースファイル\GamaObject\StageDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="DroneSetting.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Dorone</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDrone.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Dorone</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHunmer.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\Necthor</Filter>
+    </ClInclude>
+    <ClInclude Include="Necthor.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\Necthor</Filter>
+    </ClInclude>
+    <ClInclude Include="Plag.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\Necthor</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_1Scene.h">
+      <Filter>ソースファイル\Game\Scene\Stage1\1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_1_3.h">
+      <Filter>ソースファイル\Game\Scene\Stage1\3</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_2Scene.h">
+      <Filter>ソースファイル\Game\Scene\Stage1\2</Filter>
+    </ClInclude>
+    <ClInclude Include="GimmickManager.h">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Map1_2.h">
+      <Filter>ソースファイル\GamaObject\Map\Map1_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Map1_3.h">
+      <Filter>ソースファイル\GamaObject\Map\Map1_3</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakObj.h">
+      <Filter>ソースファイル\GamaObject\BreakObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoGoal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fordon.h">
+      <Filter>ソースファイル\GamaObject\Character\Enemy\Fordon</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScene.h">
+      <Filter>ソースファイル\Game\Scene\PauseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowEffect.h">
+      <Filter>ソースファイル\System\Manager\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>ソースファイル\GamaObject\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakDynamo.h">
+      <Filter>ソースファイル\GamaObject\Dynamo</Filter>
+    </ClInclude>
+    <ClInclude Include="Pimp.h">
+      <Filter>ソースファイル\Math\Pimp</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Map1_4.h">
+      <Filter>ソースファイル\GamaObject\Map\Map1_4</Filter>
+    </ClInclude>
+    <ClInclude Include="Map1_5.h">
+      <Filter>ソースファイル\GamaObject\Map\Map1_5</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_5.h">
+      <Filter>ソースファイル\Game\Scene\Stage1\5</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_4.h">
+      <Filter>ソースファイル\Game\Scene\Stage1\4</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LoseScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PressMachine.h">
+      <Filter>ソースファイル\GamaObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="ReNecthor.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClInclude>
+    <ClInclude Include="Debri.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClInclude>
+    <ClInclude Include="ShocoWave.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClInclude>
+    <ClInclude Include="NecthorHammer_InClass.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss\ReNecthor</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMovei.h">
+      <Filter>ソースファイル\System\Movie</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSmoke.h">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="HPICon.h">
+      <Filter>ソースファイル\GamaObject\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Necthor1_5.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapDebri.h">
+      <Filter>ソースファイル\GamaObject\Character\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTag.h">
+      <Filter>ソースファイル\GamaObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBattry.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Necthor_Allow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CheackBox.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSControll.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\directxtex\include\WICTextureLoader.h">
+      <Filter>ソースファイル\System\Manager\TextureManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vs.hlsl">
+      <Filter>ソースファイル\System\vs.ps</Filter>
+    </FxCompile>
+    <FxCompile Include="ps.hlsl">
+      <Filter>ソースファイル\System\vs.ps</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
